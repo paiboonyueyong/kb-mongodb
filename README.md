@@ -2,50 +2,33 @@
 
 Compare Sql and Nosql
 
-Table <--> Collection
+      Table <--> Collection
 
-Row <--> Document
+      Row <--> Document
 
-Column <--> Field
-
+      Column <--> Field
 
 # mongodb command
 
-   Point to use database
+Point to use database
    
     use contactchain_db
 
 Create collection (Table)
-''''
-db.createCollection("contact")'
-''''
+
+      db.createCollection("contact")'
 
 Show all databases
 
-> show dbs
+      show dbs
 
 Show all collection in database
 
-> how collections
+      how collections
 
 Drop use database
 
-> db.dropDatabase()
+      db.dropDatabase()
 
-As Kanye West said:
 
-> We're living the future so
-> the present is our past.
-
-I think you should use an
-`<addr>` element here instead.
-
-''''
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
 
