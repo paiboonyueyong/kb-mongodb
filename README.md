@@ -16,8 +16,9 @@ Point to use database
  use contactchain_db
 
 Create collection (Table)
-
+''''
 db.createCollection("contact")'
+''''
 
 Show all databases
 
@@ -39,6 +40,7 @@ As Kanye West said:
 I think you should use an
 `<addr>` element here instead.
 
+''''
 ```javascript
 function fancyAlert(arg) {
   if(arg) {
