@@ -17,7 +17,7 @@ Point to use database
 
 Create collection (Table)
 
-> db.createCollection("contact")
+'db.createCollection("contact")'
 
 Show all databases
 
