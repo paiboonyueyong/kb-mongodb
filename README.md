@@ -2,12 +2,14 @@
 
 Compare Sql and Nosql
 
-Table --> Collection
+Table <--> Collection
 
-Row --> Document
+Row <--> Document
 
-Column --> Field
+Column <--> Field
 
+
+# mongodb command
 
 Point to use database
 
