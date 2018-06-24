@@ -29,6 +29,19 @@ Show all collection in database
 Drop database current use
 
       db.dropDatabase()
+      
+Create collection employees and insert data
+
+      db.employees.insert(
+          {
+           "FirstName":"Paiboon Yuenyong",
+           "Tel":"0864126585",
+           "Email":"paiboon@simple.com",
+           "Salary":1000000
+          }
+      )
+
+
 
 
 
