@@ -18,15 +18,15 @@ Create collection (Table)
 
       db.createCollection("contact")'
 
-Show all databases
+Show all database
 
       show dbs
 
 Show all collection in database
 
-      how collections
+      show collections
 
-Drop use database
+Drop database current use
 
       db.dropDatabase()
 
