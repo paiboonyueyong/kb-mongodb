@@ -10,7 +10,7 @@ Compare Sql and Nosql
 
 # mongodb command
 
-Point to use database
+Point to database current use
    
     use contactchain_db
 
