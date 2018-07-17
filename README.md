@@ -41,8 +41,7 @@ Create collection employees and insert data
           }
       )
       
-Change database name
-    change mydb to sale_prediction
+Change database name >> change mydb to sale_prediction
 
     db.copyDatabase("mydb","sale_prediction")
     use mydb
