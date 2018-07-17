@@ -50,6 +50,21 @@ Change database name >> change mydb to sale_prediction
 Delete single document from collection by _id
 
     db.[collection_name].deleteOne({"_id" : ObjectId("5b4d763957c44232e0685e7d")});
+    
+Delete field from collection multi ducument
+    
+      db.[collection_name].update({}, {$unset: {OBJECTID: 1}}, {multi: true})
+      
+Delete multi field from collection multi ducument
+
+      db.FishNet.update({}, {$unset: {
+                                "Join_Count" : "1",
+                                "TARGET_FID" : "1",
+                                "JOIN_FID" : "1",
+                                "Shape_Length" : "1",
+                                "Shape_Area" : "1"
+                                }
+                       }, {multi: true})
 
 
 
