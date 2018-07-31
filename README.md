@@ -65,6 +65,11 @@ Delete multi field from collection multi ducument
                                 "Shape_Area" : "1"
                                 }
                        }, {multi: true})
+                       
+Enable Authentication
+
+      Link >> https://medium.com/mongoaudit/how-to-enable-authentication-on-mongodb-b9e8a924efac
+
 
 
 
