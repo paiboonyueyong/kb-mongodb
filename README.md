@@ -66,7 +66,7 @@ Delete multi field from collection multi ducument
                                 }
                        }, {multi: true})
                        
-How do you query this in Mongo? (is not null)
+## How do you query this in Mongo? (is not null)
 
 Given these inserts:
 
