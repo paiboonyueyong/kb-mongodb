@@ -66,6 +66,31 @@ Delete multi field from collection multi ducument
                                 }
                        }, {multi: true})
                        
+How do you query this in Mongo? (is not null)
+
+Given these inserts:
+
+      db.test.insert({"num":1, "check":"check value"});
+      db.test.insert({"num":2, "check":null});
+      db.test.insert({"num":3});
+      
+This will return all three documents:
+
+      db.test.find();
+
+This will return the first and second documents only:
+
+      db.test.find({"check":{$exists:true}});
+
+This will return the first document only:
+
+      db.test.find({"check":{$ne:null}});
+
+This will return the second and third documents only:
+
+      db.test.find({"check":null})
+
+                       
 Enable Authentication
 
       Link >> https://medium.com/mongoaudit/how-to-enable-authentication-on-mongodb-b9e8a924efac
