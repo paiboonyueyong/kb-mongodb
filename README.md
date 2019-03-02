@@ -90,12 +90,17 @@ This will return the second and third documents only:
 
       db.test.find({"check":null})
 
-                       
+## Convert Data Type
+
+      db.[collection name].find({[field name]: {$exists:true}}).forEach( function(x) {
+          db.[collection name].update({_id: x._id}, {$set: {[field name]: x.[field name].toString()}});
+      });
+     
+
 ## Enable Authentication
 
       Link >> https://medium.com/mongoaudit/how-to-enable-authentication-on-mongodb-b9e8a924efac
-   
-   
+      
 ## Tutorial
       
       https://www.tutorialspoint.com/mongodb/index.htm
